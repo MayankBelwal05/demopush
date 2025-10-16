@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import html2canvas from "html2canvas";
 
-const API_URL = "https://your-backend-url.onrender.com/api/marketing-template"; // change this after deploy
+const API_URL = "https://demopush.onrender.com/api/marketing-template"; // change this after deploy
 
 export default function App() {
   const [templates, setTemplates] = useState([]);
