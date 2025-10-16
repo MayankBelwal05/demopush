@@ -65,7 +65,6 @@ export default function App() {
               src={tpl.imageUrl}
               alt={tpl.title}
               style={{ width: "100%", height: "auto" }}
-              crossOrigin="anonymous"
             />
             <div style={{ padding: "10px" }}>
               <h4>{tpl.title}</h4>
